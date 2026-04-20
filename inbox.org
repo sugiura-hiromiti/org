@@ -1,0 +1,81 @@
+* aa
+:PROPERTIES:
+:CREATED: [2026-04-05 Sun 17:32]
+:END:
+
+* 見出し
+わわあ
+** 子見出し
+わわわあ
+* DONE たすく
+** DONE 詳細タスク
+DEADLINE: <2026-04-10>
+SCHEDULED: <2026-04-08>
+
+- 箇条書き
+- かじょうがき
+
+* めも :example:tagger:
+* DONE buffer補完の設定つめる
+:PROPERTIES:
+:CREATED: [2026-04-05 Sun 17:57]
+:END:
+- dabbrev
+- abbrev
+- 全バッファからの補完など
+* DONE org-tempoの<の後の部分の自動補完をしたい
+:PROPERTIES:
+:CREATED: [2026-04-05 Sun 18:04]
+:END:
+* DONE org-protocolでfirefoxを接続できるか
+:PROPERTIES:
+:CREATED: [2026-04-05 Sun 18:06]
+:END:
+* DONE org-agendaの候補の作り方
+:PROPERTIES:
+:CREATED: [2026-04-05 Sun 18:23]
+:END:
+* DONE emacs補完で<rc>のキーバインドをクリアする
+:PROPERTIES:
+:CREATED: [2026-04-05 Sun 18:29]
+:END:
+* DONE compilation-mode設定
+:PROPERTIES:
+:CREATED: [2026-04-07 Tue 11:43]
+:END:
+* DONE emacs-lispのformatterを導入する
+:PROPERTIES:
+:CREATED: [2026-04-09 Thu 16:38]
+:END:
+* TODO popperを常に新しいタブでtoggleされるようにする
+:PROPERTIES:
+:CREATED: [2026-04-09 Thu 16:43]
+:END:
+* TODO compilation-modeをcabalに対応させる
+:PROPERTIES:
+:CREATED: [2026-04-09 Thu 17:01]
+:END:
+* TODO recompile用のhydra bindを追加
+:PROPERTIES:
+:CREATED: [2026-04-09 Thu 17:02]
+:END:
+* TODO compilation-modeではRETをjumpにする
+:PROPERTIES:
+:CREATED: [2026-04-09 Thu 17:04]
+:END:
+* TODO next-error, previous-error用のキーバインド用意
+:PROPERTIES:
+:CREATED: [2026-04-09 Thu 17:06]
+:END:
+* TODO compilation-modeとflymakeの連携
+:PROPERTIES:
+:CREATED: [2026-04-09 Thu 18:12]
+:END:
+* TODO emacsに対してctrl + vではりつけする方法
+:PROPERTIES:
+:CREATED: [2026-04-19 Sun 21:56]
+:END:
+* TODO 特定のgit, jjりぽじとりを自動で同期するdaemon(with cli ipc)
+:PROPERTIES:
+:CREATED: [2026-04-20 Mon 09:36]
+:END:
