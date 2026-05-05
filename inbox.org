@@ -47,31 +47,31 @@ SCHEDULED: <2026-04-08>
 :PROPERTIES:
 :CREATED: [2026-04-09 Thu 16:38]
 :END:
-* TODO popperを常に新しいタブでtoggleされるようにする
+* DONE popperを常に新しいタブでtoggleされるようにする
 :PROPERTIES:
 :CREATED: [2026-04-09 Thu 16:43]
 :END:
-* TODO compilation-modeをcabalに対応させる
+* DONE compilation-modeをcabalに対応させる
 :PROPERTIES:
 :CREATED: [2026-04-09 Thu 17:01]
 :END:
-* TODO recompile用のhydra bindを追加
+* DONE recompile用のhydra bindを追加
 :PROPERTIES:
 :CREATED: [2026-04-09 Thu 17:02]
 :END:
-* TODO compilation-modeではRETをjumpにする
+* DONE compilation-modeではRETをjumpにする
 :PROPERTIES:
 :CREATED: [2026-04-09 Thu 17:04]
 :END:
-* TODO next-error, previous-error用のキーバインド用意
+
 :PROPERTIES:
 :CREATED: [2026-04-09 Thu 17:06]
 :END:
-* TODO compilation-modeとflymakeの連携
+* DONE compilation-modeとflymakeの連携
 :PROPERTIES:
 :CREATED: [2026-04-09 Thu 18:12]
 :END:
-* TODO emacsに対してctrl + vではりつけする方法
+* DONE emacsに対してctrl + vではりつけする方法
 :PROPERTIES:
 :CREATED: [2026-04-19 Sun 21:56]
 :END:
@@ -79,3 +79,20 @@ SCHEDULED: <2026-04-08>
 :PROPERTIES:
 :CREATED: [2026-04-20 Mon 09:36]
 :END:
+* DONE emacsのsnippetぷらぐいん
+:PROPERTIES:
+:CREATED: [2026-05-02 Sat 12:06]
+:END:
+* TODO consult整理
+:PROPERTIES:
+:CREATED: [2026-05-05 Tue 13:35]
+:END:
+- consult-dirのソースにzoxideを追加する
+- consult-dirのソースをconsult-bufferに流す
+- consult-bufferのソースを減らす
+- embarkをminibufferに表示するように動線をかえる
+* TODO popper復活
+:PROPERTIES:
+:CREATED: [2026-05-05 Tue 13:43]
+:END:
+popperとtab表示を同時に実現する
