@@ -96,3 +96,27 @@ SCHEDULED: <2026-04-08>
 :CREATED: [2026-05-05 Tue 13:43]
 :END:
 popperとtab表示を同時に実現する
+* aaa  :abc:def:
+aiueo
+* bbb :abc:
+* ccc :ghi:jkf:
+* dashboard
+** abc
+#+BEGIN: org-ql :query (tags "abc")
+| Heading      | Todo | P |
+|--------------+------+---|
+| [[aaa][aaa]] |      |   |
+| [[bbb][bbb]] |      |   |
+#+END:
+#+BEGIN: org-ql :query (todo)
+| Heading            | Todo | P |
+|--------------------+------+---|
+| [[abcdef][abcdef]] | TODO |   |
+#+END:
+* TODO abcdef
+
+| 0w0   | LoL  |   lzl |
+|-------+------+-------|
+| abc   | defg | 12222 |
+| sslso | aa   |     3 |
+|       |      |       |
