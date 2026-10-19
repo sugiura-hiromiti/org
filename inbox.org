@@ -75,7 +75,7 @@ SCHEDULED: <2026-04-08>
 :PROPERTIES:
 :CREATED: [2026-04-19 Sun 21:56]
 :END:
-* TODO 特定のgit, jjりぽじとりを自動で同期するdaemon(with cli ipc)
+* DONE 特定のgit, jjりぽじとりを自動で同期するdaemon(with cli ipc)
 :PROPERTIES:
 :CREATED: [2026-04-20 Mon 09:36]
 :END:
@@ -83,7 +83,7 @@ SCHEDULED: <2026-04-08>
 :PROPERTIES:
 :CREATED: [2026-05-02 Sat 12:06]
 :END:
-* TODO consult整理
+* DONE consult整理
 :PROPERTIES:
 :CREATED: [2026-05-05 Tue 13:35]
 :END:
@@ -91,7 +91,7 @@ SCHEDULED: <2026-04-08>
 - consult-dirのソースをconsult-bufferに流す
 - consult-bufferのソースを減らす
 - embarkをminibufferに表示するように動線をかえる
-* TODO popper復活
+* DONE popper復活
 :PROPERTIES:
 :CREATED: [2026-05-05 Tue 13:43]
 :END:
@@ -103,20 +103,50 @@ aiueo
 * dashboard
 ** abc
 #+BEGIN: org-ql :query (tags "abc")
-| Heading      | Todo | P |
-|--------------+------+---|
-| [[aaa][aaa]] |      |   |
-| [[bbb][bbb]] |      |   |
+| Heading | Todo | P |
+|---------+------+---|
+| [[aaa][aaa]]     |      |   |
+| [[bbb][bbb]]     |      |   |
 #+END:
 #+BEGIN: org-ql :query (todo)
-| Heading            | Todo | P |
-|--------------------+------+---|
-| [[abcdef][abcdef]] | TODO |   |
+| Heading                                  | Todo | P |
+|------------------------------------------+------+---|
+| [[uに--no-input-updateオプションを追加する][uに--no-input-updateオプションを追加する]] | TODO |   |
 #+END:
-* TODO abcdef
+* DONE abcdef
 
 | 0w0   | LoL  |   lzl |
 |-------+------+-------|
 | abc   | defg | 12222 |
 | sslso | aa   |     3 |
 |       |      |       |
+* DONE hazkey設定カスタマイズ
+:PROPERTIES:
+:CREATED: [2026-10-19 Mon 22:48]
+:END:
+* DONE org-qlの任意のqueryを許可する
+:PROPERTIES:
+:CREATED: [2026-10-19 Mon 22:49]
+:END:
+* DONE tablet modeではnoctalia barを見せるようにする
+:PROPERTIES:
+:CREATED: [2026-10-19 Mon 23:07]
+:END:
+* M.Hiroi's Home Page / Haskell Progamming :link:
+https://www.nct9.ne.jp/m_hiroi/func/haskell.html
+* DONE glideの.wキーバインドにwindow mergeを追加
+:PROPERTIES:
+:CREATED: [2026-10-22 Thu 00:02]
+:END:
+* DONE majutsuのdiff viewを設定する
+:PROPERTIES:
+:CREATED: [2026-10-22 Thu 00:03]
+:END:
+* DONE nushellのts, lspサポート追加
+:PROPERTIES:
+:CREATED: [2026-10-22 Thu 01:50]
+:END:
+* TODO uに--no-input-updateオプションを追加する
+:PROPERTIES:
+:CREATED: [2026-10-22 Thu 01:51]
+:END:
