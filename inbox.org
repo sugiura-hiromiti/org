@@ -109,9 +109,19 @@ aiueo
 | [[bbb][bbb]]     |      |   |
 #+END:
 #+BEGIN: org-ql :query (todo)
-| Heading                                  | Todo | P |
-|------------------------------------------+------+---|
-| [[uに--no-input-updateオプションを追加する][uに--no-input-updateオプションを追加する]] | TODO |   |
+| Heading                                                                        | Todo | P |
+|--------------------------------------------------------------------------------+------+---|
+| [[uに--no-input-updateオプションを追加する][uに--no-input-updateオプションを追加する]]                                      | TODO |   |
+| [[reaperのテーマ設定][reaperのテーマ設定]]                                                            | TODO |   |
+| [[feature同士の依存関係を記述できるようにしたい][feature同士の依存関係を記述できるようにしたい]]                                | TODO |   |
+| [[windows app no zikkoukankyou dounyuu][windows app no zikkoukankyou dounyuu]]                                           | TODO |   |
+| [[cmd + ctrl + h/lによるfloating windowの横移動ができない][cmd + ctrl + h/lによるfloating windowの横移動ができない]]                       | TODO |   |
+| [[nushellの補完やintegrationでobsoleteな部分がないかを検査][nushellの補完やintegrationでobsoleteな部分がないかを検査]]                     | TODO |   |
+| [[jjのnu scripts補完とcarapaceを比較][jjのnu scripts補完とcarapaceを比較]]                                            | TODO |   |
+| [[kitty no settei wo nix ni ikou suru][kitty no settei wo nix ni ikou suru]]                                            | TODO |   |
+| [[hotkey terminal wo settei suru. kitty no quick terminal wo riyou suru][hotkey terminal wo settei suru. kitty no quick terminal wo riyou suru]]          | TODO |   |
+| [[nixvirt nituite siraberu][nixvirt nituite siraberu]]                                                       | TODO |   |
+| [[dotfilesが提供するインストーラーを複数のストレージがあるマシンに対応させる][dotfilesが提供するインストーラーを複数のストレージがあるマシンに対応させる]] | TODO |   |
 #+END:
 * DONE abcdef
 
@@ -149,4 +159,176 @@ https://www.nct9.ne.jp/m_hiroi/func/haskell.html
 * TODO uに--no-input-updateオプションを追加する
 :PROPERTIES:
 :CREATED: [2026-10-22 Thu 01:51]
+:END:
+* TODO reaperのテーマ設定
+:PROPERTIES:
+:CREATED: [2026-10-30 Fri 16:11]
+:END:
+* TODO feature同士の依存関係を記述できるようにしたい
+:PROPERTIES:
+:CREATED: [2026-11-12 Thu 19:38]
+:END:
+* TODO windows app no zikkoukankyou dounyuu
+:PROPERTIES:
+:CREATED: [2026-11-12 Thu 20:59]
+:END:
+* TODO cmd + ctrl + h/lによるfloating windowの横移動ができない :niri:
+:PROPERTIES:
+:CREATED: [2026-11-15 Sun 19:47]
+:END:
+* TODO nushellの補完やintegrationでobsoleteな部分がないかを検査
+:PROPERTIES:
+:CREATED: [2026-11-15 Sun 20:31]
+:END:
+* TODO jjのnu scripts補完とcarapaceを比較
+:PROPERTIES:
+:CREATED: [2026-11-15 Sun 20:32]
+:END:
+* DONE glideに右クリック, 新しいtabでopen相当があるか
+:PROPERTIES:
+:CREATED: [2026-11-15 Sun 20:37]
+:END:
+* cyberpunk 2077 :cyberpunk2077:
+:PROPERTIES:
+:CREATED: [2026-11-17 Tue 03:34]
+:END:
+
+#+TITLE: Cyberpunk 2077 リップラー型サイバーウェア構成
+#+STARTUP: overview
+
+* ビルド概要
+- 対象バージョン: 2.5
+- 目標能力値: 知力20 / 技術20
+- サイバーデッキ: テトラトロニク・リップラー
+- 主力武器: YINGLONG（應龍）
+- 狙撃武器: BREAKTHROUGH（ブレイクスルー）
+- 方針: クイックハック火力、RAM回復、スマート武器、テック武器
+- DLC: 基本装備は本編のみで入手可能
+
+* 推奨サイバーウェア一覧
+
+#+CAPTION: 購入費用はユーロドル。限度はパークによる軽減前。
+| 部位   | 装備名                         | 重要度 | 最低Lv | 追加条件         | 初回価格 | Tier5価格 | 限度 | 主な効果・用途                          |
+|--------+--------------------------------+--------+--------+------------------+----------+-----------+------+-----------------------------------------|
+| OS     | テトラトロニク・リップラー     | 必須   |      1 | なし             |     7000 |     99731 |   16 | 最大RAM増加、攻撃ハックと武器の強化     |
+| 手1    | スマートリンク                 | 必須   |      1 | なし             |     1400 |     19946 |    4 | YINGLONGの追尾照準、最大RAM増加        |
+| 前頭葉1 | EX-ディスク                    | 最優先 |     20 | なし             |    10530 |     39892 |   10 | 最大RAM+4～6、ハックアップロード高速化  |
+| 前頭葉2 | バイオコンダクター             | 高     |      1 | なし             |     4200 |     59839 |   16 | 攻撃ハックのクリティカル化、最大RAM-4    |
+| 前頭葉3 | カミーロRAMマネジャー          | 高     |     30 | なし             |    25650 |     49866 |    8 | RAM低下時の自動回復、最大RAM+2          |
+| 循環器1 | 生体モニター                   | 最優先 |      1 | なし             |     4200 |     59839 |   14 | HP低下時に回復アイテムを自動使用        |
+| 循環器2 | 血液ポンプ                     | 最優先 |     10 | なし             |     5400 |     39892 |   15 | 高性能なHP回復アイテムとして機能        |
+| 循環器3 | フィードバック回路             | 高     |     20 | なし             |    15795 |     59839 |   14 | フルチャージのテック武器命中時にHP回復  |
+| 外皮1  | 細胞アダプター                 | 高     |     10 | 技術15・特別仕様 |    13500 |     99731 |    8 | テック武器ダメージ、爆発耐性など強化   |
+| 外皮2  | 光学迷彩                       | 中     |     10 | なし             |     8100 |     59839 |   20 | 一時的に視認性低下、潜入・戦闘離脱     |
+| 骨格   | RAMリクープ                    | 高     |      1 | なし             |     4200 |     59839 |   14 | 被ダメージに応じてRAM回復、最大RAM増加 |
+| 顔     | キロシ "THE ORACLE" オプティクス | 中    |     30 | 基本の眼球改造済 |    10260 |     19946 |   10 | 壁越しの敵・カメラ・罠の索敵            |
+| 手2    | マイクロ発電機                 | 中     |     10 | 技術15・両手利き |     5400 |     39892 |    9 | 空弾倉からのリロード後に電撃攻撃       |
+| 脚     | 強化腱                         | 高     |     10 | なし             |    10800 |     79785 |    8 | 二段ジャンプ、移動・探索・位置取り     |
+| 腕     | モノワイヤー                   | 中     |     10 | なし             |    13500 |     99731 |    8 | 近接範囲攻撃、知力系パークと連携       |
+
+* 解放条件の詳細
+
+** サイバーウェアの販売Tier
+| プレイヤーレベル | 店頭の標準Tier |
+|------------------+----------------|
+| 1～9             | Tier 1         |
+| 10～19            | Tier 2         |
+| 20～29            | Tier 3         |
+| 30～39            | Tier 4         |
+| 40以上            | Tier 5         |
+
+- 一部の装備はTier 2以上から販売される。
+- EX-ディスクはTier 3から販売される。
+- カミーロRAMマネジャーはTier 4から販売される。
+- キロシ "THE ORACLE" はTier 4から販売される。
+- 通常サイバーウェアは原則どのリパードクでも購入可能。
+- 初回価格は最低販売Tierの基準価格。
+- Tier5価格はレベル40以上での基準価格。
+- 既存の装備はリパードクで素材を使ってアップグレード可能。
+- 表の価格はアップグレード費用を含まない。
+
+** 必要パーク
+| 対象             | 能力値 | 必要パーク             | 効果                         |
+|------------------+--------+------------------------+------------------------------|
+| 細胞アダプター   | 技術15 | クローマー → 特別仕様  | 細胞アダプターの装備を解放   |
+| 手の第2スロット  | 技術15 | クローマー → 両手利き  | 手のサイバーウェア枠を追加   |
+| 骨格の第3スロット | 技術15 | クローマー             | 骨格スロットを追加           |
+| 限度拡張         | 技術20 | エッジランナー         | 最大50まで限度超過を許可     |
+
+* 武器との相乗効果
+
+** YINGLONG
+- スマートリンク: 自動追尾照準とクリティカルダメージを強化。
+- リップラー: 非コンバットハックの影響下にある敵への武器ダメージ増加。
+- マイクロ発電機: 空弾倉からリロードした後の射撃に電撃を追加。
+
+** BREAKTHROUGH
+- フィードバック回路: フルチャージ射撃の命中でHP回復。
+- 細胞アダプター: 技術20ならテック武器ダメージ+10%。
+- キロシ "THE ORACLE": 近くの敵を遮蔽物越しにハイライト。
+- 知力のPing: 遮蔽物越しの位置把握を補助。
+
+** クイックハック
+- EX-ディスク: 最大RAM増加とアップロード高速化。
+- バイオコンダクター: 攻撃ハックのクリティカル化。
+- カミーロRAMマネジャー: RAM不足時の自動補充。
+- RAMリクープ: 被ダメージからRAMを回復。
+- 生体モニター＋血液ポンプ: オーバークロック中のHP管理。
+
+* 購入優先順位
+
+** 序盤から優先
+1. スマートリンク
+2. テトラトロニク・リップラー
+3. 生体モニター
+4. 血液ポンプ（Lv10）
+5. 強化腱（Lv10）
+
+** レベル20以降
+1. EX-ディスク
+2. フィードバック回路
+3. バイオコンダクター
+4. RAMリクープ
+
+** レベル30以降
+1. カミーロRAMマネジャー
+2. キロシ "THE ORACLE" オプティクス
+
+** 技術15到達後
+1. 特別仕様を取得して細胞アダプターを装備
+2. 両手利きを取得してマイクロ発電機を追加
+
+* 補足
+- 全15装備の基礎限度合計: 174
+- 実際の限度消費はパークの軽減効果で変化する。
+- この15装備だけでは全サイバーウェアスロットは埋まらない。
+- 神経系などの未指定枠は容量と目的に合わせて追加する。
+- 全15装備をTier 5で新規購入する基準価格合計: 887607 €$
+- 実際にはアップグレードや既存装備の活用で出費を抑えられる。
+- DLCの導入なしでも基本装備は入手できる。
+- Phantom Liberty導入後にはCOX-2なども比較候補になる。
+
+* TODO kitty no settei wo nix ni ikou suru
+:PROPERTIES:
+:CREATED: [2026-11-25 Wed 14:17]
+:END:
+
+* TODO hotkey terminal wo settei suru. kitty no quick terminal wo riyou suru
+:PROPERTIES:
+:CREATED: [2026-11-25 Wed 14:21]
+:END:
+
+* DONE glide no scroll cyousei (niri no key repeat kanrenn wo iziru dakede iikamo)
+:PROPERTIES:
+:CREATED: [2026-11-25 Wed 14:25]
+:END:
+
+* TODO nixvirt nituite siraberu
+:PROPERTIES:
+:CREATED: [2026-11-25 Wed 14:38]
+:END:
+
+* TODO dotfilesが提供するインストーラーを複数のストレージがあるマシンに対応させる
+:PROPERTIES:
+:CREATED: [2026-11-25 Wed 14:59]
 :END:
